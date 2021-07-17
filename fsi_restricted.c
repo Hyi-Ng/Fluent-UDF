@@ -35,7 +35,7 @@ begin_f_loop(f,tf)
 	z=NODE_Z(v);
 	/*node coordinate*/
 	r=sqrt(y*y+z*z);
-	/*current diameter*/
+	/*current radius*/
 	if (x<=-0.003 || x>=0.002)
 	{gr=0.0025;
 	 th=500000;}
